@@ -2,13 +2,11 @@
   <div>
     <logo />
     <h1 class="title">WHITETAIL BARRIERS OF LYNCHBURG</h1>
-    <h2 class="subtitle">Protect your Landscaping with Low-Profile Deer Fencing</h2>
-   <div class="phone">703-963-8546</div>
-      <nuxt-link to="/blog">our services</nuxt-link>
-  
-     
-    
-   
+    <h2 class="subtitle">
+      Protect your Landscaping with Low-Profile Deer Fencing
+    </h2>
+    <div class="phone">703-963-8546</div>
+    <nuxt-link to="/blog">our services</nuxt-link>
   </div>
 </template>
 
@@ -32,7 +30,7 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  background-color: #89b099;
+  background-color: #8194c1;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -41,7 +39,7 @@ export default {
 }
 
 .phone {
-font-size: 40px;
+  font-size: 40px;
 }
 
 .title {
