@@ -59,7 +59,7 @@ font-size: 40px;
   font-size: 2rem;
   color: #526488;
   word-spacing: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 a {
   font-weight: bold;
