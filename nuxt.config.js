@@ -5,11 +5,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Deer fences and rodent barriers of Lynchburg VA',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'We build deer fences and rodent barriers in Lynchburg, VA' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -37,7 +37,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
+  modules: ['bootstrap-vue/nuxt'
   ],
   /*
   ** Build configuration
