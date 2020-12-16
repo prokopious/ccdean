@@ -29,6 +29,7 @@
   border-right: 105px solid transparent;
   border-bottom: 180px solid blue;
   color: blue;
+  opacity: .5;
 }
 
 .Triangle--two {
@@ -38,6 +39,7 @@
   border-left: 87.5px solid transparent;
   border-right: 87.5px solid transparent;
   color: blue;
+  opacity: .5;
   border-bottom: 150px solid #3b8070;
 }
 
