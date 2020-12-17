@@ -31,16 +31,12 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  background-color: #678198;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.num {
-  font-size: 25px;
 }
 
 .title {
@@ -49,24 +45,28 @@ export default {
   display: block;
   font-weight: bold;
   font-size: 2.7rem;
-  color: black;
+  color: rgb(192, 62, 62);
   letter-spacing: 1px;
   margin-bottom: 0px;
-  padding-bottom: 7px;
+  padding-bottom: 0px;
+}
+
+.num {
+  font-size: 25px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 2rem;
-  color: #293851;
+  color: white;
   word-spacing: 5px;
- 
+  padding-bottom: 15px;
   margin-top: 0px;
   padding-top: 0px;
 }
 a {
   font-weight: bold;
-  color: black;
+  color: rgb(243, 17, 17);
   font-size: 50;
   style: none;
 }

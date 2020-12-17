@@ -15,6 +15,19 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: bold;
+  font-size: 2.7rem;
+  color: rgb(255, 37, 37);
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 *,

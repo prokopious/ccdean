@@ -30,7 +30,7 @@ export default {
 <style>
 .container {
   margin: 10;
-  background-color: #c9c8a5;
+  background-color: #424980;
   min-height: 100vh;
   display: flex;
   justify-content: center;
