@@ -1,5 +1,5 @@
 <template>
- <img src="../static/img/unnamed2.png" />
+ <img src="../static/images/unnamed.png" />
 </template>
 
 <style>

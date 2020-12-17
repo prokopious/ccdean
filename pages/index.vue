@@ -1,6 +1,7 @@
 <template>
   <div>
-    <logo />
+    <img src="../static/images/unnamed.png" />
+    
     <h1 class="title">WHITETAIL BARRIERS OF LYNCHBURG</h1>
     <h2 class="subtitle">Protect your Landscaping with Low-Profile Fencing</h2>
 
