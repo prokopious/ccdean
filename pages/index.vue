@@ -58,7 +58,7 @@ export default {
 .subtitle {
   font-weight: 300;
   font-size: 2rem;
-  color: #526488;
+  color: #293851;
   word-spacing: 5px;
   padding-bottom: 15px;
   margin-top: 0px;
