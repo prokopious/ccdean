@@ -45,7 +45,7 @@ export default {
   display: block;
   font-weight: bold;
   font-size: 2.7rem;
-  color: rgb(192, 62, 62);
+  color: rgb(0, 0, 0);
   letter-spacing: 1px;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -58,7 +58,7 @@ export default {
 .subtitle {
   font-weight: 300;
   font-size: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
   word-spacing: 5px;
   padding-bottom: 15px;
   margin-top: 0px;
