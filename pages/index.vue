@@ -54,6 +54,7 @@ export default {
 
 .num {
   font-size: 25px;
+  color: red;
 }
 
 .subtitle {
@@ -61,15 +62,16 @@ export default {
   font-size: 2rem;
   color: rgb(0, 0, 0);
   word-spacing: 5px;
-  padding-bottom: 15px;
-  margin-top: 0px;
-  padding-top: 0px;
+
+  margin: 0px;
+  padding-bottom: 5px;
 }
 a {
   font-weight: bold;
   color: rgb(243, 17, 17);
   font-size: 50;
-  style: none;
+  
+  padding-top: 15px;
 }
 .deploy-button {
   margin-top: 1rem;

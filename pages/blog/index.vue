@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Deer Fences</h1>
     <h2 class="subtitle">
       We build affordable, low-profile fences to protect your landscaping from
       whitetail deer and other nuisance species. Quick fixes simply don't work
@@ -30,7 +31,7 @@ export default {
 <style>
 .container {
   margin: 10;
-  background-color: #424980;
+  
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -48,9 +49,10 @@ export default {
   display: block;
   padding-bottom: 30px;
   font-weight: bold;
-  style: italic;
+  
   font-size: 2.7rem;
-  color: #35495e;
+ margin-bottom: 0px;
+  padding-bottom: 0px;
   letter-spacing: 1px;
 }
 
@@ -58,15 +60,19 @@ export default {
   font-weight: 300;
   padding: 30px;
   font-size: 2rem;
-  color: #526488;
+padding-top: 0px;
   word-spacing: 5px;
-  padding-bottom: 15px;
+  margin: 0px;
+  padding-bottom: 5px;
+  
 }
 a {
   font-weight: bold;
-  color: black;
+  color: rgb(97, 26, 26);
   font-size: 50;
-  style: none;
+  padding-top: 5px;
+ 
+  padding: 7px;
 }
 .deploy-button {
   margin-top: 1rem;
