@@ -52,7 +52,7 @@ export default {
   color: black;
   letter-spacing: 1px;
   margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 7px;
 }
 
 .subtitle {
