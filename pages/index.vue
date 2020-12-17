@@ -60,7 +60,7 @@ export default {
   font-size: 2rem;
   color: #293851;
   word-spacing: 5px;
-  padding-bottom: 15px;
+ 
   margin-top: 0px;
   padding-top: 0px;
 }
