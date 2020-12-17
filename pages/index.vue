@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../static/images/unnamed.png" />
+    <img src="https://www.linkpicture.com/q/unnamed_109.png" />
     
     <h1 class="title">WHITETAIL BARRIERS OF LYNCHBURG</h1>
     <h2 class="subtitle">Protect your Landscaping with Low-Profile Fencing</h2>
