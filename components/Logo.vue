@@ -1,22 +1,16 @@
 <template>
   <div class="VueToNuxtLogo">
-  <img class="z" src="~/assets/unnamed.png" />
-  
-    
+    <img class="z" src="~/assets/unnamed.png" />
   </div>
 </template>
 
 <style>
 .VueToNuxtLogo {
   display: inline-block;
- 
-  
+
   position: relative;
   overflow: hidden;
-
 }
-
-
 
 .Triangle {
   position: absolute;
