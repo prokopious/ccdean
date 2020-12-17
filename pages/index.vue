@@ -2,11 +2,12 @@
   <div>
     <logo />
     <h1 class="title">WHITETAIL BARRIERS OF LYNCHBURG</h1>
-    <h2 class="subtitle">
-      Protect your Landscaping with Low-Profile Deer Fencing
-    </h2>
-    <div class="phone">703-963-8546</div>
-    <nuxt-link to="/blog">our services</nuxt-link>
+    <h2 class="subtitle">Protect your Landscaping with Low-Profile Fencing</h2>
+
+    <nuxt-link to="/blog">OUR SERVICES</nuxt-link>
+    <div class="num">
+      703-635-9598
+    </div>
   </div>
 </template>
 
@@ -15,7 +16,7 @@ import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo2
+    Logo
   },
   head() {
     return {
@@ -30,7 +31,7 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  background-color: #8194c1;
+  background-color: #678198;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -38,8 +39,8 @@ export default {
   text-align: center;
 }
 
-.phone {
-  font-size: 40px;
+.num {
+  font-size: 25px;
 }
 
 .title {
@@ -48,10 +49,10 @@ export default {
   display: block;
   font-weight: bold;
   font-size: 2.7rem;
-  color: #35495e;
+  color: black;
   letter-spacing: 1px;
-  padding-top: 10px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .subtitle {
@@ -59,7 +60,9 @@ export default {
   font-size: 2rem;
   color: #526488;
   word-spacing: 5px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 a {
   font-weight: bold;

@@ -15,5 +15,7 @@
     "netlify-identity-widget": "^1.5.5",
     "nuxt": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/svg": "^0.1.12"
+  }
 }
