@@ -1,6 +1,6 @@
 <template>
   <div class="VueToNuxtLogo">
-    <img class="z" src="~/assets/unnamed.png" />
+    <img src="~/assets/unnamed.png" />
   </div>
 </template>
 
