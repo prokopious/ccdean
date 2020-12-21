@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1>Deer Fences</h1>
+    <h1></h1>
     <h2 class="subtitle">
-      We build affordable, low-profile fences to protect your landscaping from
-      whitetail deer and other nuisance species. Quick fixes simply don't work
-      against adaptable urban wildlife. Consider an old-fashioned fence and go
-      to bed knowing that your hard work is safe.
+      We build affordable, low-profile fencing to protect your landscaping from
+      whitetail deer and other nuisance species in Lynchburg, VA. 
     </h2>
     <div class="phone">703-963-8546</div>
+<nuxt-link to="/">HOME</nuxt-link>
+
   </div>
 </template>
 
@@ -41,6 +41,7 @@ export default {
 
 .phone {
   font-size: 40px;
+  color: rgb(255, 255, 10);
 }
 
 .title {
@@ -50,7 +51,7 @@ export default {
   padding-bottom: 30px;
   font-weight: bold;
   
-  font-size: 2.7rem;
+  font-size: 2.3rem;
  margin-bottom: 0px;
   padding-bottom: 0px;
   letter-spacing: 1px;
@@ -58,8 +59,9 @@ export default {
 
 .subtitle {
   font-weight: 300;
+  color: rgb(238, 238, 248);
   padding: 30px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 padding-top: 0px;
   word-spacing: 5px;
   margin: 0px;
@@ -68,9 +70,9 @@ padding-top: 0px;
 }
 a {
   font-weight: bold;
-  color: rgb(97, 26, 26);
+  color: rgb(242, 251, 208);
   font-size: 50;
-  padding-top: 5px;
+  padding-top: 25px;
  
   padding: 7px;
 }

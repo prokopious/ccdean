@@ -14,7 +14,8 @@
     "bootstrap-vue": "^2.21.0",
     "jquery": "^1.9.1",
     "netlify-identity-widget": "^1.5.5",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-picture-swipe": "^2.0.2"
   },
   "devDependencies": {
     "@nuxtjs/svg": "^0.1.12"
