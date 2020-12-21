@@ -1,10 +1,12 @@
 <template>
   <div>
     <h1></h1>
+    <hr>
     <h2 class="subtitle">
       We build affordable, low-profile fencing to protect your landscaping from
       whitetail deer and other nuisance species in Lynchburg, VA. 
     </h2>
+    <hr>
     <div class="phone">703-963-8546</div>
 <nuxt-link to="/">HOME</nuxt-link>
 
@@ -78,5 +80,11 @@ a {
 }
 .deploy-button {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 1.8rem;
+  }
 }
 </style>

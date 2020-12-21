@@ -1,13 +1,16 @@
 <template>
   <div>
  <Gallery :imgs="[{src: 'https://picsum.photos/200/300', thumbnail: 'https://picsum.photos/200/300', w: 200, h: 300, alt: 'random picture from picsum.photos to demonstrate the vue-picture-swipe component', title: 'Some Picture'}, {src: 'https://picsum.photos/200/300', thumbnail: 'https://picsum.photos/200/300', w: 200, h: 300, alt: 'random picture from picsum.photos to demonstrate the vue-picture-swipe component', title: 'Some Picture'}]" />
-    <img src="https://www.linkpicture.com/q/ezgif.com-gif-maker-5.webp" />
+    
 
     
     <h1 class="title">WHITETAIL BARRIERS OF LYNCHBURG, VA</h1>
-    <h2 class="subtitle">Protect your Landscaping from Nocturnal Raids</h2>
+    <hr>
+    <h2 class="subtitle">Protect your Landscaping from Nocturnal Deer Raids</h2>
+    <hr>
 
     <nuxt-link to="/blog">OUR SERVICES</nuxt-link>
+    <hr>
     <div class="num">
       703-963-8546
     </div>
@@ -34,7 +37,7 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  background-color: #2a3e8d;
+  background-color: #24244b;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -78,5 +81,11 @@ a {
 }
 .deploy-button {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 1rem;
+  }
 }
 </style>
